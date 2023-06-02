@@ -1,0 +1,142 @@
+---
+import CaseLayout from "../layouts/CaseLayout.astro";
+import "../assets/css/facy.css";
+---
+
+<CaseLayout
+  title="Facy app case study"
+  description="Facy was the first app on the Appstore that is able to project advanced 3D models directly on the user’s head thanks to the latest iPhone X camera."
+>
+  <div class="wrap">
+    <div id="caseheading">
+      <div>
+        <h1 class="hea hea_case">Facy</h1>
+        <p class="subhea_case">#Mobile app, #development</p>
+      </div>
+    </div>
+    <div class="caseperex">
+      <div>
+        <section>
+          <h2 class="hea_casesection underline">General</h2>
+          <p>
+            Facy was the first app on the Appstore that is able to project
+            advanced 3D models directly on the user's head thanks to the latest
+            iPhone X camera. The main goal was to create fun and fancy 3D models
+            with special masks and effects that user can change in real-time.
+          </p>
+        </section>
+      </div>
+    </div>
+  </div><!--wrap-->
+  <main>
+    <div id="casemain">
+      <section>
+        <div id="solution" class="wrap">
+          <h2 class="hea_casesection underline">Web</h2>
+          <p>
+            To propagate the app we've created simple one page that is
+            representing facy app with same visual identity as used within the
+            app. We were aiming for simple and clean design.
+          </p>
+        </div>
+        <div class="graystripe">
+          <img
+            class="glogicons"
+            src="/img/facy/facyweb1366.jpg"
+            alt="App Website"
+          />
+        </div>
+      </section>
+      <section>
+        <div id="videopart" class="mobvideopart shifteddown wrap">
+          <div class="leftrest">
+            <h2 class="hea_casesection underline">App</h2>
+          </div>
+          <div class="rightmockup">
+            <img
+              class="mockupimg"
+              src="/img/mockupphone_black_flat.svg"
+              alt="app mockup"
+            />
+            <video class="smallvid" playsinline autoplay muted loop>
+              <source
+                class="hugevid"
+                src="/img/facy/vid.mp4"
+                type="video/mp4"
+              />
+              <source src="/img/facy/vid.webm" type="video/webm" />
+            </video>
+            <video class="hugevid" playsinline autoplay muted loop>
+              <source src="/img/facy/vid.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="leftrest">
+            <p>
+              Built on top of latest version of iOS AR Kit and Swift 4. The app
+              design was iterated from different phases to make achieve most
+              easy and unique UI. We have managed to find and create special
+              process for creating 3D models and placing it within the app with
+              our special format that would allow us to reuse effects,
+              animations and settings for each model.
+            </p>
+          </div>
+        </div>
+        <div class="wrap">
+          <ul id="lightSlider">
+            <li>
+              <img alt="app mockup" src="/img/facy/02.png" />
+            </li>
+            <li>
+              <img alt="app mockup" src="/img/facy/03.png" />
+            </li>
+            <li>
+              <img alt="app mockup" src="/img/facy/04.png" />
+            </li>
+            <li>
+              <img alt="app mockup" src="/img/facy/05.png" />
+            </li>
+            <li>
+              <img alt="app mockup" src="/img/facy/06.png" />
+            </li>
+            <li>
+              <img alt="app mockup" src="/img/facy/01.png" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="fullwidthimgcont">
+          <div class="wrap centercontent">
+            <div class="video-container nobottom">
+              <div
+                class="playbutton"
+                data-portal="youtube"
+                data-vidid="cUUXYK7U3I0"
+              >
+              </div>
+              <img class="fullwidthimg videoimg" src="img/facy/vidthumb.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="casestats wrap">
+          <h2 class="hea_casesection underline">Project stats</h2>
+          <div class="stat">
+            <div class="statnum">1 week</div>
+            <p>Prototype</p>
+          </div>
+          <div class="stat">
+            <div class="statnum">2 months</div>
+            <p>Full version</p>
+          </div>
+          <div class="stat">
+            <div class="statnum">4</div>
+            <p>Iterations</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</CaseLayout>

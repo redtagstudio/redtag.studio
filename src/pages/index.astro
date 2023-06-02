@@ -1,0 +1,199 @@
+---
+import DefaultLayout from "../layouts/DefaultLayout.astro";
+import { Image, getImage } from "astro:assets";
+import azzurro from "../assets/img/azzurro.jpeg";
+
+const azzurroWidth = 420;
+const azzurro2x = await getImage({ src: azzurro, width: azzurroWidth * 2 });
+const azzurro3x = await getImage({ src: azzurro, width: azzurroWidth * 3 });
+---
+
+<DefaultLayout
+  title=""
+  description="We are a group of idea makers who enjoy making the most challenging apps in the universe, and beyond."
+>
+  <div class="claimcont wrap">
+    <div class="claimpart">
+      <p class="hea hea_huge">
+        <b
+          >We make the most<br />
+          challenging apps</b
+        >
+        in the universe, and beyond
+      </p>
+
+      <a class="btn reversed" href="#standout"><span>Get to know us</span></a>
+    </div>
+  </div><!--wrap-->
+
+  <section class="revealdivs">
+    <div id="standout" class="wrap">
+      <h2 class="hea hea_large">
+        <b>What makes us</b>
+        stand out?
+      </h2>
+    </div>
+    <div id="stairs">
+      <div class="wrap">
+        <div id="on_your_side" class="stair">
+          <div class="staircont">
+            <h3 class="hea hea_para">We're on your side</h3>
+            <p>We are not a big agency that just does factory work. As a team we only work on one project at a time with maximum effort for delivery, exactly as if your project was ours. This is why we also do joint ventures with our clients.</p>
+          </div>
+        </div><!--
+       --><div id="effectivity" class="stair">
+          <div class="staircont">
+            <h3 class="hea hea_para">Effectiveness seekers</h3>
+            <p>We believe in building startups by using Agile methods, and developing the Minimum Viable Product in the shortest time, which can quickly grow and/or adapt.</p>
+          </div>
+        </div><!--
+       --><div id="market_connectors" class="stair">
+          <div class="staircont">
+            <h3 class="hea hea_para">Market connectedness</h3>
+            <p>Thanks to our experience we are able to help your startup get noticed on the market or find investors. You can use our contacts on your path to success.</p>
+          </div>
+        </div><!--
+       --><div id="business_oriented" class="stair">
+          <div class="staircont">
+            <h3 class="hea hea_para">Business oriented</h3>
+            <p>We did it ourselves. We know how difficult it can be to find your first customers or to make your startup profitable. And we know the solutions.</p>
+          </div>
+        </div>
+      </div><!--wrap-->
+    </div>
+  </section>
+  <section id="projects" class="revealdivs">
+    <div id="ourworkheacont" class="wrap">
+      <!--<h2 class="hea hea_large"><b>Our work</b>
+		we created</h2>-->
+      <h2 class="hea hea_large">Case studies</h2>
+    </div><!--wrap-->
+    <div id="caselist">
+      <div class="caseitems">
+        <article>
+          <div class="caseitem switched shiftedgrid">
+            <div class="wrap">
+              <div class="casetext">
+                <div class="caseitemcontent">
+                  <h3 class="hea hea_medium">Facy app</h3>
+                  <p class="casepara">
+                    Facy was the first augmented reality app on the Appstore
+                    that was able to project advanced 3D models directly over
+                    the user's face thanks to the latest iPhone X camera.
+                  </p>
+
+                  <div class="caseimg">
+                    <img
+                      loading="lazy"
+                      id="case2img"
+                      alt="app case study"
+                      src="/img/facy/facyHP.jpg"
+                      srcset="/img/facy/facyHP.jpg, /img/facy/facyHP@2x.jpg 2x"
+                    />
+                  </div>
+                  <div class="stats">
+                    <div class="stat">
+                      <div class="statnum">1 week</div>
+                      <p>of prototyping</p>
+                    </div>
+                    <div class="stat">
+                      <div class="statnum">2 months</div>
+                      <p>development</p>
+                    </div>
+                    <div class="stat">
+                      <div class="statnum">4</div>
+                      <p>iterations</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn" href="/facy-app-case-study"
+                  ><span>View case study</span></a
+                >
+              </div>
+            </div><!--wrap-->
+          </div>
+        </article>
+
+        <article>
+          <div id="tinygrid" class="caseitem">
+            <div class="wrap">
+              <div class="casetext">
+                <div class="caseitemcontent">
+                  <h3 class="hea hea_medium">Azzurro</h3>
+                  <p class="casepara">
+                    Travel Agency system and website in one package built with
+                    Laravel.
+                  </p>
+                  <div class="caseimg">
+                    <Image
+                      src={azzurro}
+                      alt="Azzurro"
+                      width={azzurroWidth}
+                      srcset={`${azzurro2x.src} 2x, ${azzurro3x.src} 3x`}
+                      loading="lazy"
+                      id="case3img"
+                    />
+                  </div>
+                  <div class="stats">
+                    <div class="stat">
+                      <div class="statnum">2016+</div>
+                      <p>development</p>
+                    </div>
+                    <div class="stat">
+                      <div class="statnum">4537+</div>
+                      <p>commits</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn" href="https://www.azzurro.cz"
+                  ><span>Visit azzurro.cz</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="revealdivs">
+    <div id="foot">
+      <div class="wrap">
+        <h2 class="hea hea_large">
+          <b>Planning<br /> a project?</b>Say hello.
+        </h2>
+        <a href="mailto:hello@redtag.studio" class="btn full"
+          ><span>Hire us</span></a
+        >
+        <div class="footcols">
+          <div class="footcol">
+            <h3 class="hea hea_foot">General Inquiries</h3>
+            <p>
+              Martin Kluska<br />
+              <a href="mailto:hello@redtag.studio"
+                >&#x68;&#101;&#108;&#108;&#x6f;&#x40;&#114;&#x65;&#x64;&#x74;&#97;&#x67;&#46;&#115;&#116;&#117;&#100;&#105;&#111;</a
+              ><br />
+              <a href="tel:+420775252395">+420 775 252 395</a>
+            </p>
+          </div>
+          <div class="footcol">
+            <h3 class="hea hea_foot">RedTag s.r.o.</h3>
+            <p>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.google.cz/maps/place/Slav%C3%ADkova+1571%2F6,+130+00+Praha+3-Vinohrady/@50.0788388,14.4462993,17z/data=!3m1!4b1!4m5!3m4!1s0x470b949c988e1795:0x774e193a8d1fd245!8m2!3d50.0788388!4d14.448488"
+              >
+                Slavíkova 1571/6
+              </a><br />
+              130 00 Prague 3, Czechia<br />
+              <br />
+              IČO: 06896626<br />
+              290943 C, Městský soud v Praze
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</DefaultLayout>

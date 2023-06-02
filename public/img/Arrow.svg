@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg14"
+   version="1.1"
+   viewBox="0 0 28 16"
+   height="16px"
+   width="28px">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>D1F9C606-284D-4153-B42F-8B741120F290</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: sketchtool 50 (54983) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">D1F9C606-284D-4153-B42F-8B741120F290</title>
+  <desc
+     id="desc4">Created with sketchtool.</desc>
+  <defs
+     id="defs6" />
+  <g
+     transform="translate(-133,-29)"
+     id="CTA"
+     style="fill:none;fill-rule:evenodd;stroke:#fc3c2d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+    <g
+       style="stroke:#fc3c2d;stroke-opacity:1"
+       transform="rotate(-90,89,-45)"
+       id="Arrow">
+      <polyline
+         style="stroke:#fc3c2d;stroke-opacity:1"
+         points="3.27173913 14.4906832 10.7282609 21.3478261 3.27173913 28.2049689"
+         transform="rotate(90,7,21.347826)"
+         id="Stroke-1" />
+      <path
+         transform="rotate(90,6.730769,13)"
+         style="stroke:#fc3c2d;stroke-opacity:1"
+         id="Stroke-3"
+         d="M 16.980769,12.736264 H -5.5192308" />
+    </g>
+  </g>
+</svg>

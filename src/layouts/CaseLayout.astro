@@ -1,0 +1,19 @@
+---
+import DefaultLayout from "../layouts/DefaultLayout.astro";
+import "../assets/css/lightslider.min.css";
+---
+
+<DefaultLayout bodyId="case" {...Astro.props}>
+  <slot />
+  <script is:inline src="/vendor/lightslider.min.js"></script>
+  <footer>
+    <div id="casefoot">
+      <div class="wrap">
+        <h2 class="hea_casesection">Wanna create<br />something similar?</h2>
+        <a href="mailto:hello@redtag.studio" class="btn full"
+          ><span>Hire us</span></a
+        >
+      </div>
+    </div>
+  </footer>
+</DefaultLayout>

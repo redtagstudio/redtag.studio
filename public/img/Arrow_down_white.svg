@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg15"
+   version="1.1"
+   viewBox="0 0 16 28"
+   height="28px"
+   width="16px">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>8D58CA31-1B3F-48E5-9650-B241F3C7FC34</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: sketchtool 50 (54983) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">8D58CA31-1B3F-48E5-9650-B241F3C7FC34</title>
+  <desc
+     id="desc4">Created with sketchtool.</desc>
+  <defs
+     id="defs6" />
+  <g
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="Page-1">
+    <g
+       style="stroke:#ffffff"
+       stroke-width="2"
+       stroke="#FC3C2D"
+       transform="translate(-167.000000, -5016.000000)"
+       id="1">
+      <g
+         style="stroke:#ffffff"
+         transform="translate(142.000000, 4551.000000)"
+         id="Case_Txt">
+        <g
+           style="stroke:#ffffff"
+           transform="translate(2.000000, 451.000000)"
+           id="CTA">
+          <g
+             style="stroke:#ffffff"
+             transform="translate(24.000000, 15.000000)"
+             id="Arrow_down">
+            <polyline
+               style="stroke:#ffffff"
+               points="3.27173913 14.4906832 10.7282609 21.3478261 3.27173913 28.2049689"
+               transform="translate(7.000000, 21.347826) rotate(-270.000000) translate(-7.000000, -21.347826) "
+               id="Stroke-1" />
+            <path
+               style="stroke:#ffffff"
+               transform="rotate(90,6.730769,13)"
+               id="Stroke-3"
+               d="m 16.980769,12.736264 -22.4999998,0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

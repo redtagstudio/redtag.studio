@@ -1,0 +1,11 @@
+body #videopart p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+body .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
