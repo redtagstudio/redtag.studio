@@ -38,6 +38,10 @@ All commands are run from the root of the project, from a terminal:
 | `yarn run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `yarn run astro --help` | Get help using the Astro CLI                     |
 
+## 📦 Projects
+
+- [Generate screenshots - pika.style](https://pika.style) - Size 116
+
 ## 👀 Want to learn more?
 
 Feel free to check [Astro documentation](https://docs.astro.build).

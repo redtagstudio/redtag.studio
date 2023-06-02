@@ -2,10 +2,14 @@
 import DefaultLayout from "../layouts/DefaultLayout.astro";
 import { Image, getImage } from "astro:assets";
 import azzurro from "../assets/img/azzurro.jpeg";
+import canvastera from "../assets/img/canvastera.jpg";
 
-const azzurroWidth = 420;
-const azzurro2x = await getImage({ src: azzurro, width: azzurroWidth * 2 });
-const azzurro3x = await getImage({ src: azzurro, width: azzurroWidth * 3 });
+const caseImageWidth = 420;
+const azzurro2x = await getImage({ src: azzurro, width: caseImageWidth * 2 });
+const azzurro3x = await getImage({ src: azzurro, width: caseImageWidth * 3 });
+
+const canvastera2x = await getImage({ src: canvastera, width: caseImageWidth * 2 });
+const canvastera3x = await getImage({ src: canvastera, width: caseImageWidth * 3 });
 ---
 
 <DefaultLayout
@@ -66,10 +70,50 @@ const azzurro3x = await getImage({ src: azzurro, width: azzurroWidth * 3 });
     <div id="ourworkheacont" class="wrap">
       <!--<h2 class="hea hea_large"><b>Our work</b>
 		we created</h2>-->
-      <h2 class="hea hea_large">Case studies</h2>
+      <h2 class="hea hea_large">Projects</h2>
     </div><!--wrap-->
     <div id="caselist">
       <div class="caseitems">
+        <article>
+          <div class="caseitem">
+            <div class="wrap">
+              <div class="casetext">
+                <div class="caseitemcontent">
+                  <h3 class="hea hea_medium">Azzurro</h3>
+                  <p class="casepara">
+                    Travel Agency system and website in one package built with
+                    Laravel.
+                  </p>
+
+                  <div class="caseimg">
+                    <Image
+                      src={azzurro}
+                      alt="Azzurro"
+                      width={caseImageWidth}
+                      srcset={`${azzurro2x.src} 2x, ${azzurro3x.src} 3x`}
+                      loading="lazy"
+                      class="case3img"
+                    />
+                  </div>
+
+                  <div class="stats">
+                    <div class="stat">
+                      <div class="statnum">2016+</div>
+                      <p>development</p>
+                    </div>
+                    <div class="stat">
+                      <div class="statnum">4537+</div>
+                      <p>commits</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn" href="https://www.azzurro.cz"
+                ><span>Visit azzurro.cz</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
         <article>
           <div class="caseitem switched shiftedgrid">
             <div class="wrap">
@@ -106,9 +150,7 @@ const azzurro3x = await getImage({ src: azzurro, width: azzurroWidth * 3 });
                     </div>
                   </div>
                 </div>
-                <a class="btn" href="/facy-app-case-study"
-                  ><span>View case study</span></a
-                >
+                <a class="btn" href="/facy-app-case-study"><span>View case study</span></a>
               </div>
             </div><!--wrap-->
           </div>
@@ -119,35 +161,28 @@ const azzurro3x = await getImage({ src: azzurro, width: azzurroWidth * 3 });
             <div class="wrap">
               <div class="casetext">
                 <div class="caseitemcontent">
-                  <h3 class="hea hea_medium">Azzurro</h3>
+                  <h3 class="hea hea_medium">Canvastera</h3>
                   <p class="casepara">
-                    Travel Agency system and website in one package built with
-                    Laravel.
+                    Canvastera is our internal project to allow users to create interactive canvases with any content they want.
                   </p>
                   <div class="caseimg">
                     <Image
                       src={azzurro}
-                      alt="Azzurro"
-                      width={azzurroWidth}
-                      srcset={`${azzurro2x.src} 2x, ${azzurro3x.src} 3x`}
+                      alt="Canvastera"
+                      width={caseImageWidth}
+                      srcset={`${canvastera.src} 2x, ${canvastera.src} 3x`}
                       loading="lazy"
-                      id="case3img"
+                      class="case3img"
                     />
                   </div>
                   <div class="stats">
                     <div class="stat">
-                      <div class="statnum">2016+</div>
+                      <div class="statnum">2022+</div>
                       <p>development</p>
-                    </div>
-                    <div class="stat">
-                      <div class="statnum">4537+</div>
-                      <p>commits</p>
                     </div>
                   </div>
                 </div>
-                <a class="btn" href="https://www.azzurro.cz"
-                  ><span>Visit azzurro.cz</span></a
-                >
+                <a class="btn" href="https://canvastera.com"><span>Visit canvastera.com</span></a>
               </div>
             </div>
           </div>
