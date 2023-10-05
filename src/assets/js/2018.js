@@ -426,7 +426,7 @@
 			$("#allbuthead").show();
 		}
 
-		var dest = $(this).attr('href');
+		var dest = $(this).attr('href').replace('/', '');
 		$('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
 	});
 })();
