@@ -415,7 +415,7 @@
 	}
 
 	//slide to anchor
-	$('a[href^="#"]').click(function (e) {
+	$('#body_home a[href^="/#"]').click(function (e) {
 		// console.log('a');
 		e.preventDefault();
 		//close menu if open
